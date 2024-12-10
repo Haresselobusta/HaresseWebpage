@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+    background-image: url('background.jpg');
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px 20px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, blue, red, indigo) 1;
+}
+.navbar img {
+    height: 50px;
+}
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 12px;
+    background-color: #444;
+    border-radius: 500px;
+    transition: background-color 0.3s;
+}
+.navbar .links a:hover {
+    background-color: #555;
+}
+.profile-container {
+    align-self: flex-end;
+    margin: 0 0 30px;
+    margin-left: 10px;
+    }
+.main {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to right, red, green, blue);
+    margin-top: 30px;
+    margin-right: 20px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    float: right;
+}
+.main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.social-text {
+    text-align: center;
+}
+.socials {
+    column-gap: 30px;
+    justify-content: center;
+    display: flex;
+}
+.social-instruction{
+    text-align: center;
+    font-size: 70%;
+    margin-top: -5px;
+    margin-bottom: 50px;
+}
+.myself{
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.myself-text{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.myself video{
+    width: 600px;
+    height: auto;
+}
+.text {
+    margin-bottom: 5%;
+    margin-left: 10px;
+}
+.lesson{
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 10%;
+}
+.lesson-body{
+    padding: 0 1em 1em;
+}
+.lesson img{
+   width: 600px;
+   height: 500px;
+   border-radius: 10%;
+}
+.lesson1{
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5em;
+    max-width: 50em;
+    box-shadow: 0 4px;
+}
+.lesson2{
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5em;
+    max-width: 50em;
+    box-shadow: 0 4px;
+}
+.wireframe{
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5em;
+    max-width: 50em;
+    box-shadow: 0 4px;
+}
+.HTML{
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 5em;
+    max-width: 50em;
+    box-shadow: 0 4px;
+}
+.Cross-analysis{
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 2px solid white;
+    border-radius: 2em;
+    max-width: 50em;
+    box-shadow: 0 4px;
+}
+.cross-analysis img{
+    height: auto;
+    width: 600px;
+    display: flex;
+}
+.Ball-Activity{
+    margin-top: 10%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 3px solid white;
+    border-radius: 5em;
+    max-width: 50em;
+    box-shadow: 0 4px;
+    padding: 30px;
+}
+.Ball-Activity video {
+    width: 500px;
+    height: 400px;
+}
+
+.Stickman-Activity {
+    margin-top: 5%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    border: 3px solid white;
+    border-radius: 2em;
+    max-width: 50em;
+    box-shadow: 0 4px;
+}
+.Stickman-Activity video{
+    width: 500px;
+    height: 400px;
+}
+.lesson h1 {
+    text-align: center;
+    padding: 10px;
+    position: inherit;
+    margin-top: 20%;
+    font-size: 400%;
+}
+.lesson p {
+    margin: 5%;
+    text-align: center;
+    font-size: 170%;
+}
+.lesson li {
+    text-align: center;
+    font-size: 170%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.lesson h3 {
+    margin-bottom: 5%;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 50px;        
+}    
+.learnings {
+    background: linear-gradient(to right, blue, white, pink);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.colorful {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.text-h1{
+   margin-top: 5%;
+    background: linear-gradient(to right, blue, pink, black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+.Border{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 90px;
+    border-radius: 20%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.achievement {
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    text-align: center;
+}
+.elem{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.graduation{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.lake-apo{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.cpsc{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.Buksu {
+    margin-top: 5%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.view {
+    margin-top: 5%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 16px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+.view video{
+    width: 500px;
+    height: 400px;
+}
+.achievement img{
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}                
+footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 0;
+      text-align: center;
+      color: white;
+      font-size: 1.2em;
+      background: linear-gradient(to right, white, black, blue, indigo, violet);
+}
